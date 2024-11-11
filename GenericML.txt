@@ -1,0 +1,17 @@
+step 1 : Create a repo in github
+step 2 : Create a folder in file manager. Copy the file path.
+step 3 : go to anaconda prompt and type : cd {path}
+step 4 : To open vs code : code .
+step 5 : To create venv file : in terminal of vscode type : conda create -p venv python==3.12 -y
+step 6 : To be inside the environment : conda activate venv/
+step 7 : Sync our file with github repo :
+1) git init
+2) Create README.md file in person. Then write command : git add README.md
+3) Commit it : git commit -m "First commit"
+4) git branch -M main
+5) git remote add origin https://github.com/ApurvaGawde27/GenericProject.git
+6) git push -u origin main
+step 8) Reload github. You'll see readme.md file.
+step 9) Click on + button to create new file. ".gitignore" file. Change the lang to Python.
+step 10) Go to vscode. create 2 new files. "setup.py" & "requirements.txt"
+(setup file will be responsible to install our proj as a package) 
